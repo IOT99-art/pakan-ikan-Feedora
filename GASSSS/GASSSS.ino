@@ -628,6 +628,8 @@ void runLaserProgram() {
 }
 
 // ================== Title ==================
+
+
 void showTitle() {
   lcd.clear();
   String title = "    Feedora";
@@ -638,7 +640,7 @@ void showTitle() {
   }
   delay(1000);
   lcd.clear();
-  lcd.setCursor(0,0); lcd.print("   Tekan Menu");
+  lcd.setCursor(0,0); lcd.print("    Feedora");
 }
 
 // ================== Menu Jadwal ==================
